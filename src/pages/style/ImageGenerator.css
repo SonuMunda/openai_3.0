@@ -1,5 +1,81 @@
+.dalle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dalle-container {
+  width: 80%;
+}
+
+/* Heading */
+
 .dalle-heading {
   margin-top: 75px;
   text-align: center;
   color: white;
+  padding: 1rem 0;
+}
+
+/* Controls and btns */
+
+.dalle-controls {
+  width: 100%;
+  display: flex;
+}
+
+.input-control {
+  width: 100%;
+}
+
+.input-control #user-input {
+  color: white;
+  background-color: rgb(24, 47, 70);
+  width: 100%;
+}
+
+.dalle-btns {
+  display: flex;
+}
+
+.control {
+  height: 42px;
+  outline: none;
+  border: none;
+}
+
+.dalle-response {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Spinner */
+.spinner-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 768px) {
+  .dalle-controls {
+    flex-direction: column;
+  }
+  #user-input {
+    border-radius: 10px 10px 0px 0px;
+    height: 80px;
+  }
+  .generate-control {
+    width: 100%;
+  }
+
+  .clearButton {
+    border-radius: 10px;
+  }
+
+  .generate-control #generate-btn {
+    border-radius: 0px 0px 10px 10px;
+    width: 100%;
+  }
 }
