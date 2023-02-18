@@ -3,7 +3,7 @@ import { Routes, Route} from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
 import Assistant from "./pages/Assistant";
-import ImageGenrarator from "./pages/ImageGenrarator";
+import ImageGenerarator from "./pages/ImageGenerarator";
 import Header from "./assets/components/Header";
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/chatgpt" element={<Assistant />} />
-        <Route path="dalle" element={<ImageGenrarator />} />
+        <Route path="dalle" element={<ImageGenerarator />} />
       </Routes>
     </>
   );
