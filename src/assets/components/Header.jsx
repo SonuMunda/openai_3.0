@@ -5,11 +5,13 @@ import "./Header.css";
 const Header = () => {
   return (
     <header>
+    
+      <div className="brand">
+        <h2>Open AI 3.0</h2>
+      </div>
+
       <nav className="navbar">
         <div className="nav-container">
-          <div className="brand">
-            <h2>Open AI 3.0</h2>
-          </div>
           <div className="nav-links">
             <ul className="nav-list">
               <li className="nav-list-items">

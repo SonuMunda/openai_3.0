@@ -6,21 +6,18 @@ header {
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-around;
   border-bottom: 1px solid rgb(55, 55, 55);
   backdrop-filter: blur(25px);
 }
 
-.navbar {
-  height: 100%;
-  width: 100%;
-}
 
 .nav-container {
   height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .brand h2 {
@@ -47,4 +44,8 @@ header {
 .nav-list-items .nav-links.active {
   color: #ffff;
   border-bottom: 2px solid rgb(13, 128, 216);
+}
+
+@media only screen and(max-width:768px){
+ 
 }
